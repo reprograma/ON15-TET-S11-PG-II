@@ -3,6 +3,8 @@ Turma Online Todas em Tech - Back-end | Semana 11: Projeto Guiado
 
 # Sejam bem vindes!
 
+<img src= "https://i.pinimg.com/originals/50/c2/f1/50c2f13c590fdb27c087d6a6736218e0.gif">
+
 ### Vocês sobreviveram a todas essas semanas, 11 semanas que passaram rápido, foram intensas, tiveram choros, mas chegaram até aqui, então parabéns. São guerreiras de terem enfrentado e levantado a cabeça todas essas vezes, inclusive nos momentos em que pensamos em desistir.
 
 ## O que traremos pra o dia de hoje?
