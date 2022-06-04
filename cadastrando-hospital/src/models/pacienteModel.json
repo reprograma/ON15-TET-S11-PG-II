@@ -1,0 +1,31 @@
+[
+    {
+      "pacienteId": 1,
+      "nome":"Ulisses",
+      "nomeSocial": "",
+      "idade": 35,
+      "endereco": "Rua Violeta , 323",  
+      "telefone": "(11) 3452-6763",
+      "cpf": "343.423.534-121"
+    },
+
+    {
+        "pacienteId": 2,
+        "nome":"Milena",
+        "nomeSocial": "",
+        "idade": 20,
+        "endereco": "Rua Rio de Janeiro , 45",  
+        "telefone": "(11) 3400-6763",
+        "cpf": "343.555.534-121"
+      },
+
+      {
+        "pacienteId": 3,
+        "nome":"Manuela",
+        "nomeSocial": "",
+        "idade": 25,
+        "endereco": "Rua Rosa , 32",  
+        "telefone": "(11) 3452-00",
+        "cpf": "343.423.333-121"
+      }
+]
