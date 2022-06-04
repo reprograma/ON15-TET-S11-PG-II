@@ -15,9 +15,13 @@ const app = express()
 app.use(express.json())
 // depois configurar acessando o metodo use pelo app, chamando o cors
 app.use(cors())
-// exportar o modulo app
-module.exports = app
-
-
 
 // COMO FAZER AS ROTAS FUNCIONAREM
+// importar as rotas criando uma constante
+const pacientesRota = require("./routes/pacienteRoutes")
+// preciso utilizar o metodo use para acessar a rota
+app.use("/pacientes", pacientesRota)
+
+
+// exportar o modulo app
+module.exports = app
