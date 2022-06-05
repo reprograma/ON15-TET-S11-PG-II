@@ -1,0 +1,29 @@
+[
+    {
+        "pacienteId": 1,
+        "nome": "Luciano",
+        "nomeSocial": "",
+        "idade": 30,
+        "endereco": "Rua Aqui Perto, 340",
+        "telefone": "(11) 11111-1111",
+        "cpf": "111.111.111-11"
+    },
+    {
+        "pacienteId": 2,
+        "nome": "Beatriz",
+        "nomeSocial": "",
+        "idade": 24,
+        "endereco": "Rua Aqui Perto, 340",
+        "telefone": "(11) 11111-1111",
+        "cpf": "111.111.111-11"
+    },
+    {
+        "pacienteId": 3,
+        "nome": "Xênia",
+        "nomeSocial": "",
+        "idade": 24,
+        "endereco": "Rua Aqui Perto, 340",
+        "telefone": "(11) 11111-1111",
+        "cpf": "111.111.111-11"
+    }
+]
