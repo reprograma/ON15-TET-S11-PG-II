@@ -13,8 +13,16 @@
 const express = require('express')
 const cors = require('cors')
 const app = express()
-
-
-
 app.use(express.json())
+app.use(cors())
+
+
+//como fazerem as rotas funcionarem 
+//Importar as rotas criando uma constante
+//preciso utilizar o metodo use para acessar a rota
+const pacientesRota = require("./routes/pacienteRoutes")
+app.use("/pacientes", pacientesRota)
+
+
+
 module.exports = app
