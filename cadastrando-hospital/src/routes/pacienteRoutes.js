@@ -6,15 +6,17 @@
 //uma rota para listar todos os pacientes(GET)
 //uma rota para listar por ID (GET)
 //uma rota para listar por nome, se tiver nome social, trazer por nome social(GET)
+
+//rotas para criar novo paciente(POST)
 //uma rota para atualizar o cadastro do paciente(PUT)
 //uma rotapara deletar o cadastro(delete)
 //exportar a routes
 
 const express = require('express');
-const controller = require('../controller/pacienteController')
+const controller = require("../controller/pacienteController")
 const routes = express.Router()
-routes.get('/todos', controller.todosPacientes)
+routes.get("/todos", controller.todosPacientes)
 
-
+routes.get("/filtrar/:id", controller.buscarPorId)
 
 module.exports = routes

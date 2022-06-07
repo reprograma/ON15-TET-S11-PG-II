@@ -10,8 +10,8 @@
 //importar o cors colocar ele dentro de uma variavel e tambem chamar o cors atraves do metodo use
 //exportar o modulo app
 
-const express = require('express')
-const cors = require('cors')
+const express = require("express")
+const cors = require("cors")
 const app = express()
 app.use(express.json())
 app.use(cors())
@@ -20,7 +20,9 @@ app.use(cors())
 //como fazerem as rotas funcionarem 
 //Importar as rotas criando uma constante
 //preciso utilizar o metodo use para acessar a rota
+//Essa sera a rota principal
 const pacientesRota = require("./routes/pacienteRoutes")
+
 app.use("/pacientes", pacientesRota)
 
 
