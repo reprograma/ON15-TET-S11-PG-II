@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "nome": "Casinha Acolhida",
+        "temas": ["direitos sociais", "LGBTI+"],
+        "site": "https://www.instagram.com/casinhaacolhida/",
+        "descrição": "ONG carioca que desde 2017 promove direitos sociais a população LGBTI+"
+
+    },
+    {
+        "id": 2,
+        "nome": "Amaronai Ita",
+        "temas": ["mulheres índigenas", "dignidade menstrual"],
+        "site": "https://www.instagram.com/amaronai.ita/",
+        "descrição": "Coletivo de mulheres indígenas e não-indígenas com a missão de promover dignidade menstrual e geração de renda para as mulheres do Alto Rio Negro."
+
+    },
+    {
+        "id": 3,
+        "nome": "Arquivo Lésbico Brasileiro",
+        "temas": ["sociedade civil", "LGBTQIA+", "preservação"],
+        "site": "https://www.instagram.com/arquivolesbicobrasileiro/",
+        "descrição": "Organização da sociedade civil que tem o objetivo de preservar registros históricos e culturais sobre lesbianidades e facilitar o acesso a esses itens."
+
+    },
+    {
+        "id": 4,
+        "nome": "Reprograma",
+        "temas": ["tecnologia", "capacitação", "para mulheres"],
+        "site": "https://www.reprograma.com.br/",
+        "descrição": "Queremos reduzir o gap de gênero em TI e mostrar que programação é coisa de mulher sim."
+
+    }
+]
