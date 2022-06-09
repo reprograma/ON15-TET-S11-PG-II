@@ -49,19 +49,23 @@ const searchByName = (request, response) => {
 }
 
 const updatePatient = (request, response) => {
-//    const idRequest = request.params.id
     try {
-        const updateRequest = request.body
-        let newRegistration = {
-            "patientId": "",
-            "name": updateRequest.name,
-            "socialName": updateRequest.socialName,
-            "age": updateRequest.age,
-            "address": updateRequest.address,
-            "phone": updateRequest.phone,
-            "cpf": updateRequest.cpf
+        const idRequest = request.params.id
+        const bodyRequest = request.body
+        const patientFound = patientsModel.find(patient => patient.patientId == idRequest)
+
+        index = patientsModel.indexOf(patientFound)
+        bodyRequest.patientId == idRequest
+        patientsModel.splice(index, 1, bodyRequest)
+
+        if(patientFound == undefined){
+            throw new Error("Paciente com esse id não foi encontrado.")
         }
 
+        response.status(200).json({
+            "mensagem": `Dados do paciente ${patientId} alterados com sucesso.`,
+            bodyRequest
+        })
     } catch (error) {
         response.status(500).json({
             message: error.message
@@ -73,13 +77,13 @@ const updatePatient = (request, response) => {
 const newPatient = (request, response) => {
     const newPatientRequest = request.body
     let newRegistration = {
-        "patientId": (patientsModel.length)+1,
-        "name": newPatientRequest.name,
-        "socialName": newPatientRequest.socialName,
-        "age": newPatientRequest.age,
-        "address": newPatientRequest.address,
-        "phone": newPatientRequest.phone,
-        "cpf": newPatientRequest.cpf
+        patientId: (patientsModel.length)+1,
+        name: newPatientRequest.name,
+        socialName: newPatientRequest.socialName,
+        age: newPatientRequest.age,
+        address: newPatientRequest.address,
+        phone: newPatientRequest.phone,
+        cpf: newPatientRequest.cpf
     }
     
     if(!newPatientRequest.name || newPatientRequest.socialName || newPatientRequest.adress || newPatientRequest.cpf){
@@ -96,15 +100,15 @@ const newPatient = (request, response) => {
 
 const deletePatient = (request, response) => {
     const idRequest = request.params.id
-    const filterName = patientsModel.filter(patient => patient.id == idRequest)
+    const findId = patientsModel.find(patient => patient.patientId == idRequest)
     
-    if(filterName == undefined){
+    if(findId == undefined){
         response.status(404).json({
             message: "Paciente não registrado no sistema."
         })
     }
 
-    let index = patientsModel.indexOf(filterName)
+    let index = patientsModel.indexOf(findId)
     patientsModel.splice(index, 1)
 
     response.status(200).json({
