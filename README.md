@@ -107,5 +107,8 @@ Turma Online Todas em Tech - Back-end | Semana 11: Projeto Guiado
 
 - Pensem em algo no estilo e façam suas mágicas, podem criar um projeto de ideia sua também, sintam-se livres.
 
+- Quero que o put não apague caso esteja em branco no body
+- Quero que consigam trazer o cliente dentro da logica depois de cadastrar, por id.
+
 
 * Teremos momentos onde não conseguiremos fluir e seguir com o código, nesses momentos, não forcem suas mentes, conheçam seus limites. Respirem, bebam uma aguá, vão dar uma volta do quarteirão, sozinhas ou com os doguinhos. Tem gente que se sente melhor tomando um banho gelado ou lavando pratos, outras vendo séries ou filmes. Descubram o que deixam vocês bem, e não se forcem além do limite, pois após o limite, não rendemos nada. Voltem sempre com a cabeça fria e prontas para fazer o que fazem de melhor: Serem todos os dias, mulheres incríveis!!
