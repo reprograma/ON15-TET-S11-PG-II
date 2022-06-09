@@ -19,7 +19,7 @@ app.use(cors())
 
 //COMO FAZER AS ROTAS FUNCIONAREM
 // importar as rotas criando uma constante
-const pacientesRota = require("./routes/pacientesRoutes")
+const pacientesRota = require("./routes/pacienteRoutes")
 // preciso utilizar o método use para acessar a rota
 app.use("/pacientes", pacientesRota)
 

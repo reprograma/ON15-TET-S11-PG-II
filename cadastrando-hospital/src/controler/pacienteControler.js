@@ -22,7 +22,7 @@ const buscarPorId = (requeste, response) => {
         response.status(200).json(acharId)
     } catch (error) {
         response.status(500).json({
-            message: error.messege
+            mensage: error.mensage
         })
         console.log(error) 
 
@@ -32,10 +32,10 @@ const buscarPorId = (requeste, response) => {
 
 const buscarPorNome = (request, response) => {
     try{
-        cont trazerNome = request.query.nome.toLowerCase()
+        const trazerNome = request.query.nome.toLowerCase()
         const encontrarNome = pacientes.filter(paciente =>  {
             if(paciente.nomeSocial) {
-                return paciente.nomeSocial.toLowerCase()includes(trazerNome)) {
+                return paciente.nomeSocial.toLowerCase()includes(trazerNome) {
             }
         
            return paciente.nome.toLowerCase().includes(trazerNome))
@@ -45,10 +45,10 @@ const buscarPorNome = (request, response) => {
         if(!encontrarNome)
         throw new Error("Nome não encontrado")
 
-    }
+
 
     response.status(200).json({
-        "mensagem: "Paciente encontrado"
+        "mensagem": "Paciente encontrado"
 
     })
     } catch (error) {
@@ -65,7 +65,7 @@ const buscarPorNome = (request, response) => {
 // Deletar o cadastro de um paciente (DELETE)
 // Exportar as variaveis do controller
 module.export = {
-    todosPacientes
-    buscarPorId
+    todosPacientes,
+    buscarPorId,
     buscarPorNome
 }
