@@ -1,0 +1,34 @@
+[
+    {
+        "trabalhoId": 1,
+        "professorId": 1,
+        "faculdade": "Universidade Pau-Brasil",
+        "curso": "Engenharia",
+        "materia": "Bases Físicas",
+        "classe": "1º Período" 
+    },
+    {
+        "trabalhoId": 2,
+        "professorId": 2,
+        "faculdade": "Faculdade das Três Marias",
+        "curso": "Ciência da Computação",
+        "materia": "Redes de Computadores",
+        "classe": "2º Período"
+    },
+    {
+        "trabalhoId": 3,
+        "professsorId": 3,
+        "faculdade": "Universidade de Rios Negros",
+        "curso": "Psicologia",
+        "materia": "Filosofia e Ética",
+        "classe": "1º Período"
+    },
+    {
+        "trabalhoId": 4,
+        "professorId": 4,
+        "faculdade": "Faculdade dos Pinheiros",
+        "curso": "Arquitetura",
+        "materia": "Gestão de Projetos",
+        "classe": "2º Período"
+    }
+]

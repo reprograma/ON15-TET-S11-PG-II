@@ -1,5 +1,5 @@
 // COMO SUBIR O SERVIDOR
-// Preciso do express, pq?
+// Preciso do express, pq (?)
 // Possui um sistema de rotas
 // Possibilita tratar exceções
 // Gerencia o http que me possibilita usar os verbos
