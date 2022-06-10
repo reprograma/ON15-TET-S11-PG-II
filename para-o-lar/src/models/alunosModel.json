@@ -1,40 +1,39 @@
 [
     {
-        "pacienteId": 1,
-
-        "nome": "Luciana",
-        "nomeSocial": "",
-        "idade": 30,
-        "endereco": "Rua das Laranjeiras, 400",
-        "telefone": "(11) 4321-4321",
-        "cpf": "111.111.111-11"
-    },
-    {
-        "pacienteId": 2,
-        "nome": "Beatriz",
-        "nomeSocial": "",
-        "idade": 24,
-        "endereco": "Rua das Laranjeiras, 400",
-        "telefone": "(11) 4321-4321",
-        "cpf": "111.111.111-11"
-    },
-    {
-        "pacienteId": 3,
+        "alunoId": 1,
         "nome": "Gabriela",
         "nomeSocial": "",
+        "idade": 23,
+        "endereco": "Rua das Laranjeiras, 400",
+        "telefone": "(11) 4321-4321",
+        "cpf": "111.111.111-11"
+    },
+    {
+        "alunoId": 2,
+        "nome": "Lais",
+        "nomeSocial": "",
+        "idade": 35,
+        "endereco": "Rua das Laranjeiras, 400",
+        "telefone": "(11) 4321-4321",
+        "cpf": "111.111.111-11"
+    },
+    {
+        "alunoId": 3,
+        "nome": "Pedro",
+        "nomeSocial": "Paula",
         "idade": 26,
         "endereco": "Rua das Laranjeiras, 400",
         "telefone": "(11) 4321-4321",
         "cpf": "111.111.111-11"
     },
     {
-        "pacienteId": 4,
-        "nome": "Adriano",
-        "nomeSocial": "Adriana Lohanna",
-        "idade": 36,
-        "endereco": "Rua Aqui Perto, 340",
-        "telefone": "(11) 11111-1111",
-        "cpf": "111.111.111-11"
+        "alunoId": 4,
+        "nome": "Priscila",
+        "nomeSocial": "",
+        "idade": 32,
+        "endereco": "Rua Almada, 500",
+        "telefone": "(11) 3333-4321",
+        "cpf": "222.111.111-11"
     }
-
+      
 ]

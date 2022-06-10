@@ -9,10 +9,12 @@ app.use(express.json())
 app.use(cors())
 
 //importar as rotas com uma const
-const pacientesRota = require("./routes/pacienteRoutes")
+const alunosRota = require("./routes/alunosRoutes")
+const perfisRota = require("./routes/perfisRoutes")
 
 //utilizar o metodo use para acessar a rota
-app.use("/pacientes", pacientesRota)
+app.use("/alunos", alunosRota)
+app.use("/perfisAlunos", perfisRota)
 
 //exportar modulo app 
 module.exports = app

@@ -1,0 +1,72 @@
+[
+    {
+        "perfilId": 1,
+        "aluno": {
+            "alunoId": 3,
+            "nome": "Pedro",
+            "nomeSocial": "Paula",
+            "idade": 26,
+            "endereco": "Rua das Laranjeiras, 400",
+            "telefone": "(11) 4321-4321",
+            "cpf": "111.111.111-11"
+        },
+        "planoAluno": "Semestral",
+        "pagamento":{
+            "data": "quinto dia útil do mês",
+            "metodo": "cartão de crédito",
+            "preço": "R$ 150,00"
+        },
+        "objetivosAluno": ["Hipertrofia", "Melhorar condicionamento fisico"],
+        "questionarioAvaliacao": ["Sem historico de lesões", "Pouca frequencia", "Exame de bioimpedancia normal"],
+        "resultadoAvaliacao": "Iniciante",
+        "treinoPrescrito": ["musculação", "corrida"],
+        "recomendacoes": ["Beber muita água", "Consumir quantidade adequada de proteínas"]
+    },
+    {
+        "perfilId": 2,
+        "aluno": {
+            "alunoId": 4,
+            "nome": "Priscila",
+            "nomeSocial": "",
+            "idade": 32,
+            "endereco": "Rua Almada, 500",
+            "telefone": "(11) 3333-4321",
+            "cpf": "222.111.111-11"
+        },
+        "planoAluno": "Anual",
+        "pagamento":{
+            "data": "décimo dia útil do mês",
+            "metodo": "cartão de débito",
+            "preço": "R$ 109,90"
+        },
+        "objetivosAluno": ["Emagrecimento", "Definição"],
+        "questionarioAvaliacao": ["Com historico de lesões", "Muita frequencia", "Exame de bioimpedancia normal"],
+        "resultadoAvaliacao": "Iniciante",
+        "treinoPrescrito": ["Corrida", "HIIT"],
+        "recomendacoes": ["Beber muita água", "Diminuir consumo de carboidratos"]
+    },
+    {
+        "perfilId": 2,
+        "aluno": {
+            "alunoId": 2,
+            "nome": "Lais",
+            "nomeSocial": "",
+            "idade": 35,
+            "endereco": "Rua das Laranjeiras, 400",
+            "telefone": "(11) 4321-4321",
+            "cpf": "111.111.111-11"
+        },
+        "planoAluno": "Diario",
+        "pagamento":{
+            "data": "dia da frequencia",
+            "metodo": "pix",
+            "preço": "R$ 34,90"
+        },
+        "objetivosAluno": ["Hipertrofia", "melhorar condicionamento fisico"],
+        "questionarioAvaliacao": ["Sem historico de lesões", "Muita frequencia", "Exame de bioimpedancia alterado"],
+        "resultadoAvaliacao": "Avançado",
+        "treinoPrescrito": ["Musculação", "Crossfit", "Bicicleta"],
+        "recomendacoes": ["Beber muita água", "Consumir quantidade adequada de proteínas", "Descansar após os treinos"]
+    }
+    
+]
