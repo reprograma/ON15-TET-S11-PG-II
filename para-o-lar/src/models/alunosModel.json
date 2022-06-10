@@ -1,0 +1,57 @@
+[
+    {
+        "alunoId": 1,
+        "nome": "Renan Arnaldo da Silva",
+        "nomeSocial": "",
+        "idade": 30,
+        "endereco": "Rua Benetita Nove, 340",
+        "telefone": "(31) 00111-1111",
+        "identidade": "11.111.111",
+        "email": "contato@renan123.com",
+        "dataDaPrimeiraConsulta":"14/04/2022 às 08h20"
+    },
+    {
+        "alunoId": 2,
+        "nome": "Luciana Maria Joana Ribeiro",
+        "nomeSocial": "",
+        "idade": 53,
+        "endereco": "Rua Noventa e Dois, 30",
+        "telefone": "(31) 55111-1111",
+        "identidade": "22.111.222",
+        "email": "contato@luciana123.com",
+        "dataDaPrimeiraConsulta":"25/05/2022 às 19h40"
+    },
+    {
+        "alunoId": 3,
+        "nome": "Stefani do Nascimento da Silva",
+        "nomeSocial": "Thiago do Nascimento da Silva",
+        "idade": 20,
+        "endereco": "Rua Dois, 99",
+        "telefone": "(31) 57111-1111",
+        "identidade": "33.111.333",
+        "email": "contato@thiago123.com",
+        "dataDaPrimeiraConsulta":"25/03/2022 às 17h20"
+    },
+    {
+        "alunoId": 4,
+        "nome": "Ramon José de Oliveira Bento",
+        "nomeSocial": "",
+        "idade": 34,
+        "endereco": "Rua Vila Cinco, 79",
+        "telefone": "(31) 23111-1111",
+        "identidade": "44.111.444",
+        "email": "contato@ramon123.com",
+        "dataDaPrimeiraConsulta":"25/03/2022 às 15h30."
+    },
+    {
+        "alunoId": 5,
+        "nome": "Ricardo Rios de Souza",
+        "nomeSocial": "Elaine Rios de Souza",
+        "idade": 46,
+        "endereco": "Rua Vila Cinco, 79",
+        "telefone": "(31) 39511-1111",
+        "identidade": "55.111.555",
+        "email": "contato@elaine123.com",
+        "dataDaPrimeiraConsulta":"29/05/2022 às 16h40"
+    }
+]
