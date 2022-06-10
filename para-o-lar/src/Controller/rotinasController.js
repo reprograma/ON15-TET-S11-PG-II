@@ -19,10 +19,6 @@ const professoras = require("../Models/professorasModel.json")
          const chamarId = request.params.id
          const acharId = rotinasModel.find(rotinas => rotinas.rotinasId == chamarId)
          
-         const idProfessoras = rotinaEncontrada.professoras
-         const professoraEncontrada = professoras.find(professoras => professoras.professorasId == idProfessoras)
-         rotinaEncontrada.professoras = professoraEncontrada
-         
          if(!acharId){ throw new error("id nao encontrado")
         }
      response.status(200).json(acharId)
