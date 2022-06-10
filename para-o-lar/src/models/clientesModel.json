@@ -1,0 +1,34 @@
+[
+    {
+        "clienteId": 1,
+        "nome": "Luciano",
+        "idade": 30,
+        "endereco": "Rua Aqui Perto, 540",
+        "telefone": "(11) 11111-1111",
+        "cpf": "111.111.111-11"
+    },
+    {
+        "clienteId": 2,
+        "nome": "Beatriz",
+        "idade": 24,
+        "endereco": "Rua Aqui Perto, 600",
+        "telefone": "(11) 11111-1111",
+        "cpf": "111.111.111-11"
+    },
+    {
+        "clienteId": 3,
+        "nome": "Maria",
+        "idade": 21,
+        "endereco": "Rua Aqui Perto, 800",
+        "telefone": "(11) 11111-1111",
+        "cpf": "111.111.111-11"
+    },
+    {
+        "clienteId": 4,
+        "nome": "João",
+        "idade": 24,
+        "endereco": "Rua Aqui Perto, 800",
+        "telefone": "(11) 11111-1111",
+        "cpf": "111.111.111-11"
+    }
+]
