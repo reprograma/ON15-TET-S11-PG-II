@@ -1,0 +1,74 @@
+[
+    {
+        "idAbrigoAbrigo": 1,
+        "tipo": "escola",
+        "nomeAbrigo": "E.M Diná de Oliveira",
+        "endereco": "RUA SÃO MATEUS, S-N, IPUTINGA",
+        "bairro": "Iputinga"
+    },
+    {
+        "idAbrigo":2,
+        "tipo": "escola",
+        "nomeAbrigo": "E.M Casarão do Barbalho",
+        "endereco": "ESTRADA DO BARBALHO, Nº 1595, IPUTINGA",
+        "bairro": "Detran"
+    },
+    {
+    
+        "idAbrigo": 3,
+        "tipo": "escola",
+        "nomeAbrigo": "E.M Maria Sampaio Lucena",
+        "endereco": "Av. Pernambuco, 35",
+        "bairro": "UR-01"
+    },
+    {
+        "idAbrigo": 4,
+        "tipo": "escola",
+        "nomeAbrigo": "E.M Poeta Paulo Bandeira",
+        "endereco": "RUA DAS PANELAS, Nº 28",
+        "bairro": "UR-2"
+    },
+    {
+        "idAbrigo": 5,
+        "tipo": "escola",
+        "nomeAbrigo": "E.M Adauto Pontes",
+        "endereco": "R. SERTÂNIA, 35",
+        "bairro": "Jordão Alto"
+    },
+    {
+        "idAbrigo": 6,
+        "tipo": "escola",
+        "nomeAbrigo": "E.M 27 de Novembro",
+        "endereco": "AV. DOZE DE JUNHO, Nº 1120",
+        "bairro": "UR-05"
+    },
+    {
+        "idAbrigo": 7,
+        "tipo": "escola",
+        "nomeAbrigo": "E.M. Professor Ricardo Gama",
+        "endereco": "R. Guaíra, 148",
+        "bairro": "Linha do Tiro"
+    },
+    {
+        "idAbrigo": 8,
+        "tipo": "ONG",
+        "nomeAbrigo": "Casa da ComunidAbrigoade",
+        "endereco": "Av. Afonso Olindense, 188",
+        "bairro": "Várzea"
+    },
+    {
+        "idAbrigo": 9,
+        "tipo": "igreja",
+        "nomeAbrigo": "Igreja Batista do Caçote",
+        "endereco": "R. DONA ANA AURORA, 2042",
+        "bairro": "Areias"
+    },
+    
+    {
+        "idAbrigo": 10,
+        "tipo": "igreja",
+        "nomeAbrigo": "Igreja Orai, ComunidAbrigoade Melaço do Ibura",
+        "endereco": "R. TUCUMÃ, 127",
+        "bairro": "Ibura"
+    }
+]
