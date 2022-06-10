@@ -30,5 +30,13 @@
         "site": "https://www.reprograma.com.br/",
         "descricao": "Queremos reduzir o gap de gênero em TI e mostrar que programação é coisa de mulher sim."
 
+    },
+    {
+        "id": 5,
+        "nome": "Mulheres Negras Decidem",
+        "temas": ["política", "mulheres negras"],
+        "site": "https://mulheresnegrasdecidem.org/",
+        "descricao": "Formação política, reposicionamento de temas na agenda pública e pesquisas centradas em dados."
+
     }
 ]

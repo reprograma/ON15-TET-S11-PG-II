@@ -12,7 +12,10 @@ routes.get("/filtrar/:id", controller.buscarPorId)
 //Rota para listar por nome, se tiver nome social trazer pelo nome social (GET)
 routes.get("/filtrarNome", controller.buscarPorNome)
 //Rota para cadastrar pacientes (POST)
+routes.post("/cadastrar", controller.cadastrarPacientes)
 // Rota para atualizar o cadastro do paciente (PUT)
+routes.put("/atualizar/:id", controller.atualizarPacientes)
 // Rota para deletar o cadastro (DELETE)
+routes.delete("/excluir/:id", controller.excluirPaciente)
 // Exportar o routes
 module.exports = routes

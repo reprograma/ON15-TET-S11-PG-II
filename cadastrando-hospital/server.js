@@ -1,5 +1,5 @@
 // Onde fica a porta
-// Imprtar o app para o server
+// Importar o app para o server
 const app = require("./src/app")
 // Criar a porta como uma variável
 const PORTA = 8090
