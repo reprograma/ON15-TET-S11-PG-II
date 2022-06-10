@@ -3,14 +3,14 @@
         "idAbrigoAbrigo": 1,
         "tipo": "escola",
         "nomeAbrigo": "E.M Diná de Oliveira",
-        "endereco": "RUA SÃO MATEUS, S-N, IPUTINGA",
+        "endereco": "RUA SÃO MATEUS, S-N",
         "bairro": "Iputinga"
     },
     {
         "idAbrigo":2,
         "tipo": "escola",
         "nomeAbrigo": "E.M Casarão do Barbalho",
-        "endereco": "ESTRADA DO BARBALHO, Nº 1595, IPUTINGA",
+        "endereco": "ESTRADA DO BARBALHO, Nº 1595",
         "bairro": "Detran"
     },
     {
