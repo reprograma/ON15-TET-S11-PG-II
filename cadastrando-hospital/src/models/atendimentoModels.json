@@ -1,0 +1,20 @@
+[
+    {
+        "atendimentoId": 1,
+        "paciente":  {
+            "pacienteId": 4,
+            "nome": "Adriano",
+            "nomeSocial": "Adriana Lohanna",
+            "idade": 36,
+            "endereco": "Rua Aqui Perto, 340",
+            "telefone": "(11) 11111-1111",
+             "cpf": "111.111.111-11"
+        },
+        "sintomasPaciente": ["Dor de cabeça", "enjoo", "febre"],
+        "examesSolicitados": ["Exame de sangue", "Exame de urina"],
+        "remediosAdministrado": ["Ibuprofeno", "Dramin"],
+        "resultadoDoExame": "Infecção Intestinal",
+        "remediosPreescrito": ["Ibuprofeno", "Amoxilina"],
+        "recomendacoes": ["Beber muita água", "Se alimentar bem"]
+    }
+]
