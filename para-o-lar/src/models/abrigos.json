@@ -52,7 +52,7 @@
     {
         "idAbrigo": 8,
         "tipo": "ONG",
-        "nomeAbrigo": "Casa da ComunidAbrigoade",
+        "nomeAbrigo": "Casa da Comunidade",
         "endereco": "Av. Afonso Olindense, 188",
         "bairro": "Várzea"
     },
@@ -67,7 +67,7 @@
     {
         "idAbrigo": 10,
         "tipo": "igreja",
-        "nomeAbrigo": "Igreja Orai, ComunidAbrigoade Melaço do Ibura",
+        "nomeAbrigo": "Igreja Orai, Comunidade Melaço do Ibura",
         "endereco": "R. TUCUMÃ, 127",
         "bairro": "Ibura"
     }
