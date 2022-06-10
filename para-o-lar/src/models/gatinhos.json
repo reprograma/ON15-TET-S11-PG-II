@@ -1,0 +1,34 @@
+[
+        {
+        "gatoId": 1,
+        "nome": "Malu",
+        "idade": "2 anos",
+        "genero": "fêmea",
+        "coloracão": "preto e branco",
+        "personalidade": "arisca"
+    },
+    {
+        "gatoId": 2,
+        "nome": "Alcapone",
+        "idade": "5 anos",
+        "genero": "macho",
+        "coloracão": "tigrado",
+        "personalidade": "dócil"
+    },
+    {
+        "gatoId": 3,
+        "nome": "Neném",
+        "idade": "1 ano",
+        "genero": "macho",
+        "coloracão": "laranja",
+        "personalidade": "meigo"
+    },
+    {
+        "gatoId": 4,
+        "nome": "James",
+        "idade": "9 anos",
+        "genero": "macho",
+        "coloracão": "preto",
+        "personalidade": "sem paciência"
+    }
+]
