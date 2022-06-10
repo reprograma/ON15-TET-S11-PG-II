@@ -1,0 +1,39 @@
+[
+   
+ {
+   "rotinasId": 1,
+   "professoraId": 1,
+   "escolas": ["Atheneu", "Ferreira Master"],
+   "horarios": "vespertino",
+   "disciplina": "Artes,musica",
+    "turmas": "infantil e fundamental I"
+ },
+
+ {
+  "rotinasId": 2,
+   "professoraId": 2,
+   "escolas": "Apollo, Coliseu",
+   "horarios": "matutino, vespertino",
+   "disciplina": "Ingles,matematica",
+    "turmas": "fundamental I e Fundamental II"
+ },
+
+ {
+  "rotinasId": 3,
+   "professoraId": 3,
+   "escolas": "Joao Marques, Leolino",
+   "horarios": "noturno",
+   "disciplina": "Portugues,literatura",
+    "turmas": "ensino medio"
+ },
+
+ {
+  "rotinasId": 4,
+   "professoraId": 4,
+   "escolas": "Dom Bosco, Colegio Objetivo",
+   "horarios":"matutino,vespertino, noturno",
+   "disciplina":"Ciencias, Matematica, Quimica",
+    "turmas": "Fundamental II e ensino medio"
+ }
+
+ ]

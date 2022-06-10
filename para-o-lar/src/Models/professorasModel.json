@@ -1,0 +1,41 @@
+[
+    {
+      "professoraId": 1,
+      "nome":"Bea",
+      "nomeSocial": "",
+      "idade":23,
+      "endereco": "Rua Violeta , 323",  
+      "telefone": "(11) 3452-6763"
+    
+    },
+
+    {
+        "professoraId": 2,
+        "nome":"Hannah",
+        "nomeSocial": "",
+        "idade": 20,
+        "endereco": "Rua Rio de Janeiro , 45",  
+        "telefone": "(11) 3400-6763"
+        
+      },
+
+      {
+        "professoraId": 3,
+        "nome":"Analu",
+        "nomeSocial": "",
+        "idade": 25,
+        "endereco": "Rua Rosa , 32",  
+        "telefone": "(11) 3452-00"
+    
+      },
+
+      {
+        "professoraId": 4,
+        "nome":"Lilit",
+        "nomeSocial": "Luciana",
+        "idade": 27,
+        "endereco": "Rua Rio de Janeiro , 15",  
+        "telefone": "(11) 1240-6763"
+    
+      }
+]
