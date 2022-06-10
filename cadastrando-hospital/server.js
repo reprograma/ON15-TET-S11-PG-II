@@ -6,3 +6,4 @@ const PORT =  7080
 
 //acessar o app e utilizar o listen para ouvir a porta
 app.listen(PORT, () => console.log(`Servidor está funcionando na porta ${PORT}`))
+

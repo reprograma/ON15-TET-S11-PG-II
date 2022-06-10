@@ -48,23 +48,101 @@ const buscarPorNome = (request, response) => {
             "mensagem": "Paciente encontrado",
             encontrarNome
         })
-    
+  
     } catch (error) {
         response.status(500).json({
             message: error.message
         })
+        console.log(error)
     }
 }
+// Cadastrar no sistema um paciente (POST)
+const cadastrarPacientes = (request, response) => {
+    try {
+        const pegarBody = request.body
+        let novoPaciente = {
+            pacienteId: (pacientes.length) + 1,
+            nome: pegarBody.nome,
+            nomeSocial: pegarBody.nomeSocial,
+            idade: pegarBody.idade,
+            endereco: pegarBody.endereco,
+            telefone: pegarBody.telefone,
+            cpf: pegarBody.cpf
+        }
 
-//Cadastrar paciente (POST)
+        pacientes.push(novoPaciente)
 
-//Atualizar cadastro de um paciente (PUT)
+        response.status(201).json({
+            "mensagem": "Paciente cadastrado com sucesso!",
+            novoPaciente
+        })
+    } catch (error) {
+        response.status(500).json({
+            message: error.message
+        })
+        console.log(error)
+    }
+}
+// Atualizar o cadastro de um paciente no sistema (PUT)
+const atualizarPacientes = (request, response) => {
+    try {
+        const pegarId = request.params.id
+        const pegarBody = request.body
 
-//Deletar cadastrado de um paciente (DELETE)
 
-//Exportar as variaveis do controller
+        const pacienteEncontrado = pacientes.find(paciente => paciente.pacienteId == pegarId)
+
+        const indice = pacientes.indexOf(pacienteEncontrado)
+       
+        pegarBody.pacienteId == pegarId
+
+        pacientes.splice(indice, 1, pegarBody)
+
+        if(pacienteEncontrado == undefined) {
+            throw new Error("Paciente não encontrado, pois o id não foi identificado.")
+        }
+
+        response.status(200).json({
+            "mensagem": "Dados do paciente atualizado com sucesso",
+            pegarBody
+        })
+    } catch (error) {
+        response.status(500).json({
+            message: error.message
+        })
+        console.log(error)
+    }
+}
+// Deletar o cadastro de um paciente (DELETE)
+const excluirPaciente = (request, response) => {
+    try {
+        const pegarId = request.params.id
+        const pacienteEncontrado = pacientes.find(paciente => paciente.pacienteId == pegarId)
+
+        const indice = pacientes.indexOf(pacienteEncontrado)
+
+        pacientes.splice(indice, 1)
+
+        if(pacienteEncontrado == undefined) {
+            throw new Error("Id não encontrado.")
+        }
+
+        response.status(200).json({
+            "mensagem": "Paciente excluido com sucesso."
+        })
+    } catch (error) {
+        response.status(500).json({
+            message: error.message
+        })
+        console.log(error)
+    }
+}
+// Exportar as variaveis do controller
 module.exports = {
     todosPacientes,
     buscarPorId,
-    buscarPorNome
+    buscarPorNome,
+    cadastrarPacientes,
+    atualizarPacientes,
+    excluirPaciente
 }

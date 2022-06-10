@@ -1,6 +1,7 @@
 [
     {
         "atendimentoId": 1,
+
         "paciente": {
             "pacienteId": 4,
             "nome": "Adriano",
