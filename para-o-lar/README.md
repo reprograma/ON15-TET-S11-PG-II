@@ -3,6 +3,7 @@ Realocação de pessoas desabrigadas com as chuvas em Recife
 # cadastramento de pessoas desabrigadas
 - id
 - nome
+- nome social
 - cpf
 - genero
 - endereco
