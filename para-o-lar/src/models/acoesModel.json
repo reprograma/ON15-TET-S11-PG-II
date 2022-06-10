@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "ongId": 1,
+        "acoes":["ação com a casa dulce seixas", "dia internacional contra a LGBTfobia"],
+        "observacoes": "Por que ajudar a Casinha? Você ajuda dezenas de vidas LGBTI+ em situação de vulnerabilidade social."
+    },
+    {
+        "id": 2,
+        "ongId": 2,
+        "acoes": ["Participação no programa Papo de Maloca"],
+        "observacoes": "Fazem oficinas de comunicação com mulheres."
+
+    },
+    {
+        "id": 3,
+        "ongId": 3,
+        "acoes": ["Financiamento campanha cinesapatão", "Clube de leitura"],
+        "observacoes": "O ALB disponibiliza itens de seu acervo de maneira gratuita na área restrita do site. A consulta ao acervo é exclusivamente digital, sendo vedada a reprodução. Para acessar, é necessário um cadastro prévio, como em qualquer instituição de memória, como bibliotecas e centros de documentação. Na aba de notícias, você encontra informações sobre os últimos materiais disponibilizados."
+
+
+    },
+    {
+        "id": 4,
+        "ongId": 4,
+        "acoes": ["Todas em tech", "Conectadas"],
+        "observacoes": "Aprendizado em tecnologia para mulheres adultas e adolescentes."
+
+    },
+    {
+        "id": 5,
+        "ongId": 5,
+        "acoes": ["Estamos prontas", "Indicam o podcast Elas Debatem"],
+        "observacoes": "Qualificamos e promovemos a agenda liderada por mulheres negras na política institucional, fortalecendo a democracia brasileira usando como estratégia a superação da falta representatividade de mulheres negras nas instâncias de poder."
+
+    }
+]
