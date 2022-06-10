@@ -53,6 +53,32 @@ const findByName = (req, res) => {
     }
 }
 
+//GET
+const findByCategory = (req, res) => {    
+    try {
+        const categoryRequest = req.query.categoria.toLowerCase()
+
+        const findCategory = feiraModel.filter(
+            business => business.categoria.toLowerCase().includes(categoryRequest)
+            )
+
+        if(findCategory.length == 0) {
+            throw new Error("Categoria não encontrada.")
+        }
+
+        res.status(200).json({
+            "message": "Categoria encontrada:",
+            findCategory
+        })
+    } catch (error) {
+        res.status(404).json({
+            "message": "Poxa, não conseguimos encontrar essa categoria em nosso catálogo.",
+            "details": error.message
+        })
+        console.log(error)
+    }
+}
+
 //POST
 const registerBusiness = (req, res) => {
     try {
@@ -138,6 +164,7 @@ module.exports = {
     allBusiness,
     findById,
     findByName,
+    findByCategory,
     registerBusiness,
     updateBusiness,
     deleteBusiness

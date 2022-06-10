@@ -10,6 +10,8 @@ routes.get("/filter/:id", controller.findById);
 
 routes.get("/name", controller.findByName);
 
+routes.get("/category", controller.findByCategory);
+
 routes.post("/register", controller.registerBusiness);
 
 routes.put("/update/:id", controller.updateBusiness);
