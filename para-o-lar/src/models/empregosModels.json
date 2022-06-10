@@ -1,0 +1,72 @@
+[{
+    "empregoId": 1,
+    "vagaemprego": "Call Center",
+    "cadastro": {
+        "candidatoId": 1,
+        "nome": "José",
+        "idade ": " 37 ",
+        "endereço": "Rua Germano Gambaro",
+        "telefone": "(43)98434-8307",
+        "cpf": "111.111.111-11"
+    },
+    "requisitos": [" Computação ", " inglês ", " experiência "],
+    "horarios": ["comercial ", " escala 36x12 ", "noturno"],
+    "beneficios": [" salario ", " vale alimentação "],
+    "modalidade": ["hibrido ", " remoto "],
+
+
+}, {
+    "empregoId": 2,
+    "vagaemprego": "Auxiliar de Produção",
+    "cadastro": {
+        "candidatoId": 2,
+        "nome": "Ana",
+        "idade ": " 25 ",
+        "endereço": "Rua Falta Grana",
+        "telefone": "(43)88888-8888",
+        "cpf": "111.111.111-11"
+    },
+    "requisitos": [" 2ºGrau Completo ", " Experiência "],
+    "horarios": ["comercial ", "noturno"],
+    "beneficios": [" salario ", " vale alimentação ", "plano de saúde", "vale transporte "],
+    "modalidade": ["presencial "]
+
+
+}, {
+    "empregoId": 3,
+    "vagaemprego": "Desenvolvedor JS Junior",
+    "cadastro": {
+        "candidatoId": 3,
+        "nome": "Maria",
+        "idade ": " 20 ",
+        "endereço": "Travessa Vazia",
+        "telefone": "(43)77777-7777",
+        "cpf": "111.111.111-11"
+    },
+    "requisitos": [" 2º Grau Completo ", " Conhecimentos de JavaScript ", "Inglês Básico"],
+    "horarios": ["comercial ", "noturno"],
+    "beneficios": [" salario ", " vale alimentação ", "plano de saúde", "vale transporte ",
+        "auxílio baba", "treinamentos",
+        "plano odontológico"
+    ],
+    "modalidade": ["presencial ", "remoto ", "hibrido"]
+
+
+}, {
+    "empregoId": 4,
+    "vagaemprego": "Segurança",
+    "cadastro": {
+        "candidatoId": 4,
+        "nome": "João",
+        "idade ": " 42 ",
+        "endereço": "Rua do Passa Fome",
+        "telefone": "(43)66666-6666",
+        "cpf": "111.111.111-11"
+    },
+    "requisitos": [" 2º Grau Completo ", " Curso de Segurança ", "Porte de Arma"],
+    "horarios": ["escala 36x12 ", "noturno"],
+    "beneficios": [" salario ", " vale alimentação ", "vale transporte "],
+    "modalidade": ["presencial "]
+
+
+}]

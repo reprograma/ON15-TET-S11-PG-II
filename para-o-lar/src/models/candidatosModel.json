@@ -1,0 +1,37 @@
+[{
+    "candidatoId": 1,
+    "nome": "José",
+    "profissao": "call center",
+    "idade ": " 37 ",
+    "endereço": "Avenida Nó Cego",
+    "telefone": "(43)99999-9999",
+    "cpf": "111.111.111-11"
+
+}, {
+    "candidatoId": 2,
+    "profissao": "auxiliar de produção",
+    "nome ": " Ana ",
+    "idade ": " 25 ",
+    "endereço": "Rua Falta Grana",
+    "telefone": "(43)88888-8888",
+    "cpf": "111.111.111-11"
+
+
+
+}, {
+    "candidatoId": 3,
+    "nome": "Maria",
+    "idade ": " 20 ",
+    "endereço": "Travessa Vazia",
+    "telefone": "(43)77777-7777",
+    "cpf": "111.111.111-11",
+    "profissao": "desenvolvedor full stack"
+}, {
+    "candidatoId": 4,
+    "nome": "João",
+    "idade ": " 42 ",
+    "endereço": "Rua do Passa Fome",
+    "telefone": "(43)66666-6666",
+    "cpf": "111.111.111-11",
+    "profissao": "segurança"
+}]
