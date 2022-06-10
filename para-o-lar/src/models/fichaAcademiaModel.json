@@ -1,0 +1,26 @@
+[
+    {
+        "fichaId": 1,
+        "clienteid": 1,
+        "execicios":{"Superiores":["Barra fixa ou graviton 5 X 8-10 reps – Intervalo 45s","Remada baixa no triângulo 4 X 8-10 reps – Intervalo 45s","Rosca alternada 4 X 8-10 reps – Intervalo 45 ","Tríceps corda – 3 X 8-10 reps – Intervalo 45s"],
+        "Inferiores":["Agachamento 5 X 8-10 reps – Intervalo 45s","Leg Press 4 X 8-10 reps – Intervalo 45","Extensora lombar 3 X 8-10 reps – Intervalo 45","Panturrilha 4 X 8-10 reps – Intervalo 45s"]}
+    },
+    {
+        "fichaId": 1,
+        "clienteid": 2,
+        "execicios":{"Superiores":["Supino inclinado halteres 5 X 8-10 reps – Intervalo 45s","Remada baixa no triângulo 4 X 8-10 reps – Intervalo 45s","Rosca alternada 4 X 8-10 reps – Intervalo 45 ","Tríceps corda – 3 X 8-10 reps – Intervalo 45s"],
+        "Inferiores":["Agachamento 5 X 8-10 reps – Intervalo 45s","Leg Press 4 X 8-10 reps – Intervalo 45","Mesa flexora 3 X 8-10 reps – Intervalo 45","Panturrilha 4 X 8-10 reps – Intervalo 45s"]}
+    },
+    {
+        "fichaId": 1,
+        "clienteid": 3,
+        "execicios":{"Superiores":["Elevação lateral 5 X 8-10 reps – Intervalo 45s","Remada baixa no triângulo 4 X 8-10 reps – Intervalo 45s","Rosca alternada 4 X 8-10 reps – Intervalo 45 ","Tríceps corda – 3 X 8-10 reps – Intervalo 45s"],
+        "Inferiores":["Agachamento 5 X 8-10 reps – Intervalo 45s","Mesa flexora  4 X 8-10 reps – Intervalo 45","Extensora lombar 3 X 8-10 reps – Intervalo 45","Panturrilha 4 X 8-10 reps – Intervalo 45s"]}
+    },
+    {
+        "fichaId": 1,
+        "clienteid": 4,
+        "execicios":{"Superiores":["Mergulho 5 X 8-10 reps – Intervalo 45s","Remada baixa no triângulo 4 X 8-10 reps – Intervalo 45s","Rosca alternada 4 X 8-10 reps – Intervalo 45 ","Tríceps corda – 3 X 8-10 reps – Intervalo 45s"],
+        "Inferiores":["Stiff 5 X 8-10 reps – Intervalo 45s","Leg Press 4 X 8-10 reps – Intervalo 45","Extensora lombar 3 X 8-10 reps – Intervalo 45","Panturrilha 4 X 8-10 reps – Intervalo 45s"]}
+    }
+]
