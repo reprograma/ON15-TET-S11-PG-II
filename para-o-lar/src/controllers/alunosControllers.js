@@ -3,7 +3,7 @@ const { request, response } = require("../app")
 const alunos = require("../models/alunosModels.json")
 const todosAlunos = (request, response) => {
     response.status(200).json({
-        "mensagem":"Esses são alunos cadastrados na academia:",
+        "mensagem": "Esses são alunos cadastrados na academia:",
         alunos
     })
 }
@@ -13,16 +13,16 @@ const buscarPorId = (request, response) => {
         const chamarId = request.params.id
         const acharId = alunos.find(aluno => aluno.matriculaId == chamarId)
 
-        if(!acharId){
+        if (!acharId) {
             throw new Error("Id não encontrado!")
         }
-        response.status(200).json(acharId)        
+        response.status(200).json(acharId)
     } catch (error) {
         response.status(500).json({
             message: error.message
         })
         console.log(error)
-        
+
     }
 }
 
@@ -31,7 +31,7 @@ const buscarPorNome = (request, response) => {
         const trazerNome = request.query.nome.tpLowerCase()
         const encontrarNome = alunos.filter(aluno => aluno.nome == trazerNome)
 
-        if(!encontrarNome){
+        if (!encontrarNome) {
             throw new Error("Nome não encontrado!")
         }
         response.status(200).json({
@@ -48,14 +48,15 @@ const buscarPorNome = (request, response) => {
 
 const cadastrarAluno = (request, response) => {
     try {
-        const pegarBody = request.body 
+        const pegarBody = request.body
         let novoAluno = {
-        matriculaId: (alunos.length)+1,
-        nome: pegarBody.nome,
-        idade: pegarBody.idade,
-        altura: pegarBody.altura,
-        peso: pegarBody.peso,
-        dataInicio: pegarBody.dataInicio
+            matriculaId: (alunos.length) + 1,
+            nome: pegarBody.nome,
+            idade: pegarBody.idade,
+            altura: pegarBody.altura,
+            peso: pegarBody.peso,
+            dataInicio: pegarBody.dataInicio,
+            treinos: pegarBody.treinos
         }
 
         alunos.push(novoAluno)
@@ -69,57 +70,58 @@ const cadastrarAluno = (request, response) => {
             message: error.message
         })
         console.log(error)
-        
+
     }
 }
 
 const alualizarAluno = (request, response) => {
-try {
-    const pegarId = request.params.id
-    const pegarBody = request.body
+    try {
+        const pegarId = request.params.id
+        const pegarBody = request.body
 
-    const alunoEncontrado = alunos.find(aluno => aluno.matriculaId == pegarId)
+        const alunoEncontrado = alunos.find(aluno => aluno.matriculaId == pegarId)
 
-    const indice = alunos.indexOf(alunoEncontrado)
+        const indice = alunos.indexOf(alunoEncontrado)
 
-    pegarBody.matriculaId == pegarId
+        pegarBody.matriculaId == pegarId
 
-    alunos.splice(indice, 1, pegarBody)
+        alunos.splice(indice, 1, pegarBody)
 
-    if(alunoEncontrado == undefined) {
-        throw new Error("Aluno não encontrado, pois a matrícula não foi identificada.")
+        if (alunoEncontrado == undefined) {
+            throw new Error("Aluno não encontrado, pois a matrícula não foi identificada.")
+        }
+
+        response.status(200).json({
+            "mensagem": "Dados do aluno atualizado!!",
+            pegarBody
+        })
+    } catch (error) {
+        response.status(500).json({
+            message: error.message
+        })
+        console.log(error)
+
     }
-
-    response.status(200).json({
-        "mensagem":"Dados do aluno atualizado!!",
-        pegarBody
-    })
-} catch (error) {
-    response.status(500).json({
-        message: error.message
-    })
-    console.log(error)
-    
-}}
+}
 
 const excluirAluno = (request, response) => {
     try {
-    const pegarId = request.params.id
+        const pegarId = request.params.id
 
-    const alunoEncontrado = alunos.find(aluno => aluno.matriculaId == pegarId)
+        const alunoEncontrado = alunos.find(aluno => aluno.matriculaId == pegarId)
 
-    const indice = alunos.indexOf(alunoEncontrado)
+        const indice = alunos.indexOf(alunoEncontrado)
 
-    alunos.splice(indice, 1)
+        alunos.splice(indice, 1)
 
-    if(alunoEncontrado == undefined) {
-        throw new Error("Aluno não encontrado!")
-    }
+        if (alunoEncontrado == undefined) {
+            throw new Error("Aluno não encontrado!")
+        }
 
-    response.status(200).json({
-        "mensagem":"Aluno excluido com sucesso!!!"
-    })
-        
+        response.status(200).json({
+            "mensagem": "Aluno excluido com sucesso!!!"
+        })
+
     } catch (error) {
         response.status(500).json({
             message: error.message
