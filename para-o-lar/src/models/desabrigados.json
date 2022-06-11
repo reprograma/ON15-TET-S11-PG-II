@@ -7,6 +7,7 @@
         "genero": "feminino",
         "endereco": "Rua Perto, 120",
         "bairro": "Jordão Alto",
+        "familia": ["marido", "filho"],
         "abrigo": " "
     },
     {
@@ -17,6 +18,7 @@
         "genero": "feminino",
         "endereco": "Av. João Melo, 56",
         "bairro": "Detran",
+        "familia": ["marido"],
         "abrigo": " "
     },
     {
@@ -27,6 +29,7 @@
         "genero": "feminino",
         "endereco": "Rua Candeias, 20",
         "bairro": "UR-01",
+        "familia": ["mãe", "pai", "avó"],
         "abrigo": " "
     },
     {
@@ -37,6 +40,7 @@
         "genero": "feminino",
         "endereco": "Av. Conceição, 60",
         "bairro": "Areias",
+        "familia": ["filha", "filho", "filha"],
         "abrigo": " "
     },
     {
@@ -47,6 +51,7 @@
         "genero": "masculino",
         "endereco": "Travessa dos Rios, 15",
         "bairro": "UR-02",
+        "familia": ["avó", "avô", "esposa"],
         "abrigo": " "
     },
     {
@@ -57,6 +62,7 @@
         "genero": "feminino",
         "endereco": "Rua Dois Coelhos, 70",
         "bairro": "Iputinga",
+        "familia": [],
         "abrigo": " "
     },
         {
@@ -67,6 +73,7 @@
         "genero": "masculino",
         "endereco": "Travessa Livros, 88",
         "bairro": "Ibura",
+        "familia": ["marido"],
         "abrigo": " "
     },
     {
@@ -77,6 +84,7 @@
         "genero": "feminino",
         "endereco": "Av. Barulho, 55",
         "bairro": "Várzea",
+        "familia": ["esposa", "cachorro"],
         "abrigo": " "
     },
     {
@@ -87,6 +95,7 @@
         "genero": "masculino",
         "endereco": "Trabessa Santa Mãe, 02",
         "bairro": "Ibura",
+        "familia": ["filha"],
         "abrigo": " "
     },
     {
@@ -97,6 +106,7 @@
         "genero": "masculino",
         "endereco": "Rua Manoel Fragoso, 45",
         "bairro": "Linha do Tiro",
+        "familia": [],
         "abrigo": " "
     }
 ]
