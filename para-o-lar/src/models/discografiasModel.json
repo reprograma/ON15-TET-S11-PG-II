@@ -1,0 +1,85 @@
+[
+    {
+        "id": 1,
+        "artist": 1,
+        "albumList": [
+            {
+                "albumId": 1,
+                "albumTitle": "Babylon By Gus - Volume 1 - O Ano do Macaco",
+                "launchYear": 2004,
+                "tracks": 12                            
+            },
+        
+            {
+                "albumId": 2,
+                "albumTitle": "Babylon By Gus - Volume 2 - No Princípio Era o Verbo",
+                "launchYear": 2015,
+                "tracks": 11                             
+            },
+        
+            {
+                "albumId": 3,
+                "albumTitle": "Abaixo de Zero: Hello Hell",
+                "launchYear": 2019,
+                "tracks": 9                        
+            }
+        ]
+    },
+
+    {
+        "id": 2,
+        "artist": 2,
+        "albumList": [
+            {
+                "albumId": 4,
+                "artist": 2,
+                "albumTitle": "Sou Suspeita, Estou Sujeita, Não Sou Santa",
+                "launchYear": 2011,
+                "tracks": 15                        
+            },
+            
+            {
+                "albumId": 5,
+                "artist": 2,
+                "albumTitle": "Anelis Assumpção & os amigos imaginários",
+                "launchYear": 2014,
+                "tracks": 12
+            },
+        
+            {
+                "albumId": 6,
+                "artist": 2,
+                "albumTitle": "Taurina",
+                "launchYear": 2018,
+                "tracks": 13
+            }
+        ] 
+    },
+
+    {
+        "id": 3,
+        "artist": 3,
+        "albumList":
+        {
+            "albumId": 7,
+            "artist": 3,
+            "albumTitle": "Kokoroko",
+            "launchYear": 2019,
+            "tracks": 4
+        }
+    },
+
+    {
+        "id": 4,
+        "artist": 4,
+        "albumList":
+        {
+            "albumId": 8,
+            "artist": 4,
+            "albumTitle": "Gunas",
+            "launchYear": 2022,
+            "tracks": 3
+        }
+    }
+
+]
