@@ -1,0 +1,137 @@
+[
+    {
+        "atendimentoId": 1,
+        
+        "pedidoDeExameLaboratorial":
+        
+        ["hemograma completo", "proteínas totais", "índice de creatinina-altura (ICA)","triglicérides", 
+        "colesterol total", "HDL", "LDL", "VLDL","vitamina B12", "ácido fólico",
+        "cálcio total", "ferro", "zinco", "sódio", "fósforo", "selênio"],
+
+        "retorno": " 30 dias",
+
+        "prescriçãoNutricional": "1500 kcl", 
+
+        "desjejum": 
+        
+        ["Suco verde", "Fruta", "Pão Integral", "Queijo"],
+
+        "lancheDaManhã":
+        
+        ["Fruta", "Castanha"],
+
+        "almoço": 
+        
+        ["Hortaliças cruas", "Legumes no vapor", "Arroz Integral", "Feijão", "Filé de Frango"],
+
+        "lancheDaTarde": 
+        
+        ["Fruta", "Iorgute","Aveia"],
+
+        "jantar":
+        
+        ["Hortaliças cruas", "Omelete","Batatas Cozidas"],
+
+        "ceia": 
+        
+        ["Leite Desnatado", "Fruta", "Linhaça"],
+
+        "recomendações":
+        
+        ["Beber 2 litros de água diariamente", "Comer 3 porções de frutas ao dia", "Troque o Refrigerante por Sucos Naturais"]
+
+    },
+    
+    
+        {
+            "atendimentoId": 2,
+            
+            "pedidoDeExameLaboratorial":
+            
+            ["hemograma completo", "triglicérides", 
+            "colesterol total", "HDL", "LDL", "VLDL","vitamina D3", "ácido fólico",
+            "cálcio total", "ferro", "zinco"],
+    
+            "retorno": " 30 dias",
+    
+            "prescriçãoNutricional": "1200 kcl", 
+    
+            "desjejum": 
+            
+            ["Café com Leite", "Fruta", "Tapioca", "Queijo"],
+    
+            "lancheDaManhã":
+            
+            ["Fruta", "Aveia"],
+    
+            "almoço": 
+            
+            ["Legumes no vapor", "Arroz Integral", "Feijão", "Carne"],
+    
+            "lancheDaTarde": 
+            
+            ["Fruta", "Iorgute"],
+    
+            "jantar":
+            
+            ["Legumes", "Carne","Batatas Assadas"],
+    
+            "ceia": 
+            
+            ["Mingau de Aveia", "Fruta"],
+    
+            "recomendações":
+            
+            ["Beber 2 litros de água diariamente", "Comer 3 porções de frutas ao dia", "Troque o Refrigerante por Sucos Naturais"]
+    
+        },
+
+        
+        {
+            "atendimentoId": 3,
+            
+            "pedidoDeExameLaboratorial":
+            
+            ["hemograma completo", "triglicérides", 
+            "colesterol total", "HDL", "LDL", "VLDL","Glicemia", 
+            "cálcio total", "ferro", "zinco"],
+    
+            "retorno": " 30 dias",
+    
+            "prescriçãoNutricional": "1700 kcl", 
+    
+            "desjejum": 
+            
+            ["Café", "Fruta", "Crepioca", "Queijo"],
+    
+            "lancheDaManhã":
+            
+            ["Panqueca de Banana", "Mel"],
+    
+            "almoço": 
+            
+            ["Salada", "Arroz Integral", "Feijão", "Peixe"],
+    
+            "lancheDaTarde": 
+            
+            ["Fruta", "Aveia"],
+    
+            "jantar":
+            
+            ["Legumes no vapor", "Peixe","Batata Doce Assada"],
+    
+            "ceia": 
+            
+            ["Fruta", "Linhaça"],
+    
+            "recomendações":
+            
+            ["Beber 2 litros de água diariamente", "Comer 3 porções de frutas ao dia", "Troque o Refrigerante por Sucos Naturais"]
+    
+        }
+        
+    ]
+    
+        
+    
+    

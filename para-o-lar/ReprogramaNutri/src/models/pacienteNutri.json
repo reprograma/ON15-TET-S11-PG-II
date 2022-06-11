@@ -1,0 +1,93 @@
+[
+    {
+        "pacienteId": 1,
+        "nome": "Fernando Silva",
+        "nomeSocial": "",
+        "idade": 37,
+        "altura": "1,80 cm",
+        "pesoInicial": "79 kg",
+        "atividadeFísica": " ",
+        "patologias": " ",
+        "endereco": "Rua das Margaridas, 52",
+        "telefone": "(11) 4045-8340",
+        "cpf": "123.456.789-10",
+        "email": "fernandosilva@email.com"
+},
+
+    {
+        "pacienteId": 2,
+        "nome": "Amanda Pereira",
+        "nomeSocial": "",
+        "idade": 29,
+        "altura": "1,58 cm",
+        "pesoInicial": "67 kg",
+        "atividadeFísica": " ",
+        "patologias": " ",
+        "endereco": "Rua das Flores, 40",
+        "telefone": "(11) 4046-8420",
+        "cpf": "222.333.444-55",
+        "email": "amandapereira@email.com"
+},
+    {
+        "pacienteId": 3,
+        "nome": "Julia Krause",
+        "nomeSocial": "",
+        "idade": 24,
+        "altura": "1,75 cm",
+        "pesoInicial": "70 kg",
+        "atividadeFísica": " ",
+        "patologias": " ",
+        "endereco": "Rua das Rosas, 1139",
+        "telefone": "(11) 4030-7982",
+        "cpf": "444.555.777-88",
+        "email": "juliakrause@email.com"
+},
+
+    {
+        "pacienteId": 4,
+        "nome": "Michelle Ribeiro",
+        "nomeSocial": "",
+        "idade": 27,
+        "altura": "1,68 cm",
+        "pesoInicial": "75 kg",
+        "atividadeFísica": " ",
+        "patologias": " ",
+        "endereco": "Rua das Orquideas, 89",
+        "telefone": "(11) 4020-5183",
+        "cpf": "999.111.400-55",
+        "email": "michelleribeiro@email.com"
+},
+
+    {
+
+    "pacienteId": 5,
+    "nome": "Felipe Silva",
+    "nomeSocial": "",
+    "idade": 40,
+    "altura": "1,88 cm",
+    "pesoInicial": "86 kg",
+    "atividadeFísica": " ",
+    "patologias": " ",
+    "endereco": "Rua das Tulipas, 67",
+    "telefone": "(11) 4344-9125",
+    "cpf": "777.345.888-00",
+    "email": "felipesilva@email.com"
+},
+
+    {
+
+    "pacienteId": 6,
+    "nome": "Gustavo Alves",
+    "nomeSocial": "",
+    "idade":31,
+    "altura": "1,78 cm",
+    "pesoInicial": "90 kg",
+    "atividadeFísica": " ",
+    "patologias": " ",
+    "endereco": "Rua dos Girassois, 50",
+    "telefone": "(11) 4270-8238",
+    "cpf": "444.678.789-10",
+    "email": "gustavoalves@email.com"
+}
+
+]

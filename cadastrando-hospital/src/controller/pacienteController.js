@@ -1,5 +1,3 @@
-// Aqui fica nossa lógica do código
-// importar o json/banco de dados
 const pacientes = require("../models/pacienteModel.json")
 // Precisamos listar os pacientes desse hospital (GET)
 const todosPacientes = (request, response) => {
