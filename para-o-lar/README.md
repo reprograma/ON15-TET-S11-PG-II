@@ -3,7 +3,7 @@
 Para este projeto, foi escolhido um exemplo de tema, que deveria ter lógica de funcionamento.
 
 Simulei o projeto de acordo com todo conteúdo que já foi feito nas aulas. 
-Efetuando uma API com arquitetura MVC,e utilizando os métodos https GET, POST, PUT e DELETE.
+Efetuando uma API com arquitetura MVC e utilizando os métodos https GET, POST, PUT e DELETE.
 
 ### Tema do Projeto: Reprograma Nutri 
 
