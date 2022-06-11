@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "nomeDoDrink": "Bloody Mary",
+        "ingredientes":["Suco de tomate", "Salsão", "Limão", "Coentro", "Sal", "Pimenta", "Gelo"],
+        "valor": 15.00
+    },
+    {
+        "id": 2,
+        "nomeDoDrink": "Mojito",
+        "ingredientes":["Limão", "Rum branco", "Hortelã", "Açúcar","Gelo", "Soda"],
+        "valor": 9.00
+
+    },
+    {
+        "id": 3,
+        "nomeDoDrink": "Caipirinha",
+        "ingredientes":["Limão", "Gelo", "Açúcar", "Cachaça"],
+        "valor": 6.00
+
+
+    },
+    {
+        "id": 4,
+        "nomeDoDrink": "Sex on the beach",
+        "ingredientes":["Vodca", "Xarope de Groselha", "Gelo", "Licor de Pêssego", "Suco de Laranja"],
+        "valor": 12.00
+
+    },
+    {
+        "id": 5,
+        "nomeDoDrink": "Dry Martini",
+        "ingredientes":["Gim", "Vermute branco seco", "Azeitona", "Casca de limão", "Gelo"],
+        "valor": 18.00
+    },
+    {
+        "id": 6,
+        "nomeDoDrink": "Margarita",
+        "ingredientes":["Tequila", "Licor de Laranja", "Limão", "Gelo", "Sal"],
+        "valor": 9.00
+    },
+    {
+        "id": 7,
+        "nomeDoDrink": "Cosmopolitan",
+        "ingredientes":["Vodca", "Licor de Laranja", "Limão", "Suco de Cranberry", "Gelo"],
+        "valor": 10.00
+    },
+    {
+        "id": 8,
+        "nomeDoDrink": "Cuba Libre",
+        "ingredientes":["Rum branco", "Coca cola", "Limão"],
+        "valor": 5.00
+    },
+    {
+        "id": 9,
+        "nomeDoDrink": "Pinã Colada",
+        "ingredientes":["Rum", "Leite de coco", "Suco de abacaxi", "Leite Condensado", "Gelo"],
+        "valor": 12.00
+    },
+    {
+        "id": 10,
+        "nomeDoDrink": "Pisco Sour",
+        "ingredientes":["Pisco", "Suco de limão", "Xarope de açúcar", "Clara de ovo", "Angostura", "Gelo"],
+        "valor": 20.00
+    }  
+]
