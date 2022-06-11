@@ -1,7 +1,7 @@
 const express = require("express")
 const cors = require("cors")
-const desabrigadosRouter = require("../src/models/desabrigados.json")
-const abrigosRouter = require("../src/models/abrigos.json")
+const desabrigadosRouter = require("./routes/desabrigadosRouter")
+const abrigosRouter = require("./routes/abrigosRouter")
 
 const app = express()
 
