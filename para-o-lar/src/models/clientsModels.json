@@ -1,0 +1,149 @@
+[
+    {
+        "clientId": 1,
+        "Name": "Jean dos Santos",
+        "socialName": "Geovana dos Santos",
+        "address" : "R. das Olivas" ,
+        "number" : 50,
+        "phone" : "1111-1111",
+        "ReferencePoint": "ao lado da igreja",
+        "orders" : [
+
+            {
+                "orderId": 8, 
+                "description":"1 pizza calabresa L, 1 refrigerante 2L"
+            },
+
+            {
+                "orderId":22, 
+                "description":"2 pizza 4 queijos L, 2 refrigerante 2L"
+            }
+            
+        ]
+
+    },
+    {
+        "clientId": 2,
+        "Name": "Juliana Maria Vieira",
+        "socialName": " ",
+        "address" : "R. Quincas Berro D'água" ,
+        "number" : 50,
+        "phone" : "2222-2222",
+        "ReferencePoint": "ao lado da praça principal",
+        "orders" : [
+            {
+                "orderId": 20, 
+                "description":"1 feijoada completa, 3 pudim, 1 refrigerante 1L, 04 cervejas long neck"
+            },
+
+            {
+                "orderId":25, 
+                "description":"2 arrumadinhos veganos, 1 doce de coco, 1 jarra de suco"
+            }
+            
+        ]
+
+    },
+    {
+        "clientId": 3,
+        "Name": "Mario Lima",
+        "socialName": "Mariana Lima",
+        "address" : "R. Frei Afonso Maria" ,
+        "number" : 200,
+        "phone" : "3333-3333",
+        "ReferencePoint": "em frente ao hospital",
+        "orders" : [
+
+            {
+                "orderId": 9, 
+                "description":"1 feijoada completa, 1 refrigerante 2L, 02 cervejas long neck"
+            },
+
+            {
+                "orderId":14, 
+                "description":"2 arrumadinhos, 1 pudim, 2 jarras de suco"
+            }, 
+
+            {
+                "orderId":19,
+                "description":"1 pizza pepperone L, 1 pizza muzzarela L, 2 refrigerante 2L"
+            }
+         ]
+        
+
+    },
+    {
+        "clientId": 4,
+        "Name": "Cláudia Ramires",
+        "socialName": " ",
+        "address" : "R. Gilca Maria Gomes" ,
+        "number" : 150,
+        "phone" : "4444-4444",
+        "ReferencePoint": "não informado",
+        "orders" : [
+
+            {
+                "orderId": 15, 
+                "description":"3 coxinhas de frango, 2 empadas de camarão, 04 cervejas lata"
+            },
+
+            {"orderId":16, 
+            "description":"1 escondidinho de charque, 1 água de coco"
+            }, 
+
+            {
+                "orderId":17, 
+                "description":"1/2 pizza calabresa L, 1/2 pizza frango L, 2 refrigerante 2L"
+            }
+            
+        ]
+
+    },
+    {
+        "clientId": 5,
+        "Name": "Pedro",
+        "socialName": "Tammires Rayanne",
+        "address" : "R. do Farol" ,
+        "number" : 23,
+        "phone" : "5555-5555",
+        "ReferencePoint": "ao lado da peixaria",
+        "orders" : [
+            {
+                "orderId": 10, 
+                "description":"04 cervejas artenasais 1L, 1 camisa Lula Livre, 1 hambúrguer artesanal"
+            },
+
+            {
+                "orderId":11, 
+                "description":"2 arrumadinhos, 2 pudim, 1 refrigerante 2L"
+            }, 
+
+            {   "orderId":12, 
+                "description":"1/2 pizza mussarela L, 1/2 pizza frango L, 1 refrigerante 2L"
+            }
+        ]
+
+    },  
+
+    {
+        "clientId": 6,
+        "Name": "Joana",
+        "socialName": "José da Silva",
+        "address" : "R. Carlos Fragoso" ,
+        "number" : 329,
+        "phone" : "6666-6666",
+        "ReferencePoint": "não informado",
+        "orders" : [
+            {
+                "orderId": 7, 
+                "description":"05 caranguejos, 1 copo do bloco, 1 drink maçã qn, 05 cervejas lonh neck"
+            },
+
+            {
+                "orderId": 18, 
+                "description":"05 cervejas ipa 1L, 1 hambúrguer artesanal"
+            }
+        ]
+    }
+
+]

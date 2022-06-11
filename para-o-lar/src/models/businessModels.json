@@ -1,0 +1,84 @@
+[
+    {
+        "id": 1,
+        "clientId": 0,
+        "likes" : 10,
+        "dislikes" : 5,
+        "store": "Sabor do Bonfim" ,
+        "type" : ["restaurante", "pizzaria"],
+        "neighborhood" : "Carmo",
+        "address" : "R. do Bonfim",
+	    "number": 66,
+        "paymment": ["Dinheiro", "pix", "cartão"],
+        "site" : "https://sabordobonfimpizzabar.negocio.site/"
+        
+    },
+    {
+        "id": 2,
+        "clientId": 0,
+        "likes" : 8,
+        "dislikes" : 4,
+        "store": "Tô em casa",
+        "type" :  "restaurante",
+        "neighborhood" : "Carmo",
+        "paymment": ["Dinheiro", "pix"],
+        "address" : "R. de São Bento" ,
+	    "number": 298,
+         "site" : "https://www.instagram.com/toemcasaolinda/"
+    
+    },
+    {
+        "id": 3,
+        "clientId": 0,
+        "likes" : 20,
+        "dislikes" : 3,
+        "store": "Bodega do véio",
+        "type" : ["restaurante", "bar"],
+        "neighborhood" : "Amparo",
+        "address" : "R. do Amparo" ,
+	    "number": 212,
+        "paymment": ["Dinheiro", "pix", "cartão"],
+        "site" : "https://www.instagram.com/bodegadeveioolinda/"
+    },
+    {
+        "id": 4,
+        "clientId": 0,
+        "likes" : 30,
+        "dislikes" : 10,
+        "store": "Casa Balea",
+        "type" : ["artes", "bar"],
+        "neighborhood" : "Carmo",
+        "address" : "R. 13 de maio" ,
+	    "number": 99,
+        "paymment": ["pix", "cartão"],
+        "site" : "https://www.instagram.com/casabalea/"
+    },
+    {
+        "id": 5,
+        "clientId": 0,
+        "likes" : 14,
+        "dislikes" : 20,
+        "store": "Cavalote",
+        "type" : ["cervejaria artesanal", "bar", "pub"],
+        "neighborhood" : "Carmo",
+        "address" : "R. de São Bento" ,
+	    "number": 239,
+        "paymment": ["Dinheiro", "pix", "cartão"],
+        "site" : "https://www.instagram.com/cavalotecervejariapub/"
+    },  
+
+    {
+        "id": 6,
+        "clientId": 0,
+        "likes" : 10,
+        "dislikes" : 6,
+        "store": "Bar do Amparo",
+        "type" : ["Restaurante", "bar"],
+        "neighborhood" : "Amparo",
+        "address" : "R. do Amparo" ,
+	    "number": 3,
+        "paymment": ["Dinheiro", "cartão"],
+        "site" : "https://www.instagram.com/bar.doamparo/"
+    }
+
+]
