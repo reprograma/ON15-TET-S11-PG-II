@@ -1,0 +1,43 @@
+[   
+    {
+        "id": 0,
+        "nome": "Fulano",
+        "nomeSocial": "Fulana",
+        "endereco":{"rua": "São Miguel, 29", "cidade":"Curitiba", "UF":"PR"},
+        "telefone": "18 98100-0000",
+        "equipamento": ["HP Tonner"]
+    },
+    {
+        "id": 1,    
+        "nome": "Beltrana",
+        "nomeSocial": " ",
+        "endereco":{"rua": "Jesus, 33", "cidade":"Florianópolos", "UF":"SC"},
+        "telefone": "18 98104-1111",
+        "equipamento": ["Xerox Phaser 3040"]
+    },
+    {
+        "id": 2,
+        "nome": "Ciclano", 
+        "nomeSocial": "Ciclana",
+        "endereco":{"rua": "Anjo da Guarda, 35", "cidade":"Porto Alegre", "UF":"RS"},  
+        "telefone": "18 98106-5899",
+        "equipamento": ["HP 4034"]
+    },
+    {
+        "id": 3,
+        "nome": "Zezinha", 
+        "nomeSocial": "Zezinho",
+        "endereco":{"avenida": "Nossa Senhora da Pompeia, 1230","cidade":"São Paulo", "UF":"SP"},  
+        "telefone": "18 98102-1234",
+        "equipamento": ["Epson 4044"]
+    },
+    {
+        "id": 4,
+        "nome": "Luizinha", 
+        "nomeSocial": " ",
+        "endereco":{"avenida": "Espírito Santo, 560", "cidade":"Rio de Janeiro", "UF":"RJ"}, 
+        "telefone": "18 91234-4321",
+        "equipamento": ["Epson 3000"]
+    }
+
+]
