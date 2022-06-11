@@ -11,7 +11,7 @@ router.get("/studentsGradeAverage/:id", controller.findStudentsGradeAverage);
 router.get("/studentsFrequency/:id", controller.findStudentsFrequency);
 
 
-router.post("/newRecord/", controller.createNewRecord);
+router.post("/newRecord", controller.createNewRecord);
 router.put("/updateAll/:id", controller.updateAll);
 router.delete("/deleteRecord/:id", controller.deleteById);
 router.patch("/updateAnyItem/:id", controller.updateAnyItem);
