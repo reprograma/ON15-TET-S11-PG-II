@@ -1,0 +1,43 @@
+[
+    {
+        "Id": 1,
+        "nome": "Barbara",
+        "atividade": "Programadora",
+        "idade": 25,
+        "endereco": "Rua Aparecida, 85",
+        "telefone": "(81) 3425-9565",
+        "objetivo": "ser mais ativa",
+        "detalhes": "Dor na lombar, não pratica esportes."
+    },
+    {
+        "Id": 2,
+        "nome": "Amanda",
+        "atividade": "Analista de T.I",
+        "idade": 26,
+        "endereco": "Av Mal Mascarenhas, 89",
+        "telefone": "(81) 8874-9685",
+        "objetivo": "Ganho de Massa Magra",
+        "detalhes": "Não pratica musculação há 6 meses"
+    },
+    {
+        "Id": 3,
+        "nome": "Erica",
+        "atividade": "Gerente Financeira",
+        "idade": 32,
+        "endereco": "Av Piedade, 98",
+        "telefone": "(81) 8745-2896",
+        "objetivo": "Perca de gordura",
+        "detalhes": "Nunca praticou musculação."
+    },
+    {
+        "Id": 4,
+        "nome": "Hennan",
+        "atividade": "Programador",
+        "idade": 28,
+        "endereco": "Av Boa Viagem, 145",
+        "telefone": "(81) 8369-5114",
+        "objetivo": "Ganho de massa magra",
+        "detalhes": "Só praticou artes marciais."
+    }
+
+]
