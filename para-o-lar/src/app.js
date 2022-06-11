@@ -9,11 +9,13 @@ app.use(express.json())
 app.use(cors())
 
 
-// rota raiz
+// rotas raiz
 
 const clientesRota = require("./routes/clienteRoutes")
+const infoRota = require("./routes/infoRoutes")
 
 app.use("/clientes", clientesRota)
+app.use("/info", infoRota)
 
 module.exports = app
 
