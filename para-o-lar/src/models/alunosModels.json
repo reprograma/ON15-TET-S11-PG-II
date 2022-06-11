@@ -1,0 +1,116 @@
+[
+    {
+        "matriculaId": 1,
+        "nome": "Carol",
+        "idade": 24,
+        "altura": 1.60,
+        "peso": 48,
+        "dataInicio": "09/06/2022",
+        "treinos": [
+            {
+                "treino": 1,
+                "perna": [
+                    "banco extensor",
+                    "leg press",
+                    "sissy squat",
+                    "agachamento livre",
+                    "mesa flexora",
+                    "panturrilha sentado"
+                ],
+                "braço": [
+                    "abdução manguito",
+                    "adução manguito",
+                    "pulley frente",
+                    "remada",
+                    "rosca alternada",
+                    "rosca direta"
+                ]
+            }
+        ]
+    },
+    {
+        "matriculaId": 2,
+        "nome": "Tiago",
+        "idade": 25,
+        "altura": 1.60,
+        "peso": 62,
+        "dataInicio": "10/06/2022",
+        "treinos": [
+            {
+                "treino": 1,
+                "perna": [
+                    "banco extensor",
+                    "leg press",
+                    "sissy squat",
+                    "agachamento livre",
+                    "mesa flexora",
+                    "panturrilha sentado"
+                ],
+                "braço": [
+                    "abdução manguito",
+                    "adução manguito",
+                    "pulley frente",
+                    "remada",
+                    "rosca alternada",
+                    "rosca direta"
+                ]
+            }
+        ]
+    },
+    {
+        "matriculaId": 3,
+        "nome": "João",
+        "idade": 40,
+        "altura": 1.80,
+        "peso": 86,
+        "dataInicio": "11/06/2022",
+        "treinos": [
+            {
+                "treino": 2,
+                "gluteo": [
+                    "abdução de quadril",
+                    "gluteo coice cross",
+                    "elevação pelvica",
+                    "banco abdutor",
+                    "agachamento sumo"
+                ],
+                "ombro": [
+                    "peck deck",
+                    "supino reto",
+                    "supino inclinado",
+                    "elevação frontal",
+                    "elevação lateral",
+                    "triceps"
+                ]
+            }
+        ]
+    },
+    {
+        "matriculaId": 4,
+        "nome": "Maria",
+        "idade": 32,
+        "altura": 1.64,
+        "peso": 60,
+        "dataInicio": "13/06/2022",
+        "treinos": [
+            {
+                "treino": 2,
+                "gluteo": [
+                    "abdução de quadril",
+                    "gluteo coice cross",
+                    "elevação pelvica",
+                    "banco abdutor",
+                    "agachamento sumo"
+                ],
+                "ombro": [
+                    "peck deck",
+                    "supino reto",
+                    "supino inclinado",
+                    "elevação frontal",
+                    "elevação lateral",
+                    "triceps"
+                ]
+            }
+        ]
+    }
+]

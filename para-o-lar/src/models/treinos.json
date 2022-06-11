@@ -1,0 +1,39 @@
+[
+    {
+        "treino": 1,
+        "perna": [
+            "banco extensor",
+            "leg press",
+            "sissy squat",
+            "agachamento livre",
+            "mesa flexora",
+            "panturrilha sentado"
+        ],
+        "braço": [
+            "abdução manguito",
+            "adução manguito",
+            "pulley frente",
+            "remada",
+            "rosca alternada",
+            "rosca direta"
+        ]
+    },
+    {
+        "treino": 2,
+        "gluteo": [
+            "abdução de quadril",
+            "gluteo coice cross",
+            "elevação pelvica",
+            "banco abdutor",
+            "agachamento sumo"
+        ],
+        "ombro": [
+            "peck deck",
+            "supino reto",
+            "supino inclinado",
+            "elevação frontal",
+            "elevação lateral",
+            "triceps"
+        ]
+    }
+]
