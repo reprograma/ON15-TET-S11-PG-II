@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "artist": "Black Alien",
+        "genre": "Rap",
+        "country": "Brasil",
+        "albuns": "3"
+    },
+
+    {
+        "id": 2,
+        "artist": "Anelis Assumpção",
+        "genre": ["Dub", "Reggae", "Afrobeat", "MPB"],
+        "country": "Brasil",
+        "albuns": "3"
+    },
+
+    {
+        "id": 3,
+        "artist": "Kokoroko",
+        "genre": ["Afrobeat", "Jazz-Funk", "Afro-Jazz"],
+        "country": "Reino Unido",
+        "albuns": "1"
+    },
+
+    {
+        "id": 4,
+        "artist": "Deboxada",
+        "genre": ["Rock", "Afrobeat"],
+        "country": "Brasil",
+        "albuns": "1"
+    }
+
+]
