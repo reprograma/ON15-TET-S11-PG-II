@@ -1,0 +1,39 @@
+[
+    {
+        "matriculaId": 1,
+        "nome": "Carol",
+        "idade": 24,
+        "altura": 1.60,
+        "peso": 48,
+        "dataInicio": "09/06/2022"
+        
+    },
+
+    {
+        "matriculaId": 2,
+        "nome": "Tiago",
+        "idade": 25,
+        "altura": 1.60,
+        "peso": 62,
+        "dataInicio": "10/06/2022"
+    },
+
+    {
+        "matriculaId": 3,
+        "nome": "João",
+        "idade": 40,
+        "altura": 1.80,
+        "peso": 86,
+        "dataInicio": "11/06/2022"
+    },
+
+    {
+        "matriculaId": 4,
+        "nome": "Maria",
+        "idade": 32,
+        "altura": 1.64,
+        "peso": 60,
+        "dataInicio": "13/06/2022"
+    }
+
+]
