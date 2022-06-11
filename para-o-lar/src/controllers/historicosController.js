@@ -1,5 +1,5 @@
-const alunosModel = require("../models/alunos.json");
-const historicoModel = require("../models/historicoMensal.json");
+const alunosModel = require("../models/cadastros.json");
+const historicoModel = require("../models/historicos.json");
 
 
 const getAllRecordsByStudentId = (request, response) => {
@@ -185,9 +185,11 @@ const findStudentsGradeAverage = (request, response) => {
             }
         }
 
+   
+        
         let findName = records.find(record => record.aluno.id == id)
 
-        if (findName == undefined || filterRecords == 0) {
+        if (findName == 0 || findName == undefined) {
             throw {
                 statusCode: 404,
                 message: "Não encontramos resultados com essa busca.",
@@ -195,7 +197,7 @@ const findStudentsGradeAverage = (request, response) => {
                 params: id
             }
         }
-
+        
         let anyName
         if (findName.aluno.nomeSocial.length != 0) {
             anyName = findName.aluno.nomeSocial
@@ -204,11 +206,19 @@ const findStudentsGradeAverage = (request, response) => {
         } else {
             anyName = findName.aluno.nome
         }
-
+        
         let average = (grades.reduce((prev, next) => prev + next)) / grades.length
         let filterRecords = records.filter(record => record.aluno.id == id)
-
-      
+        
+        if (filterRecords == 0 ||filterRecords == undefined) {
+            throw {
+                statusCode: 404,
+                message: "Não encontramos resultados com essa busca.",
+                details: "Em nosso banco de dados, não existem informações compatíveis com essa busca.",
+                params: id
+            }
+        }
+        
         response.status(200).json({
             "Nome do aluno": anyName,
             "Média do aluno": average.toFixed(2),
