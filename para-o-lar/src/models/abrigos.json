@@ -1,13 +1,13 @@
 [
     {
-        "idAbrigoAbrigo": 1,
+        "idAbrigo": 1,
         "tipo": "escola",
         "nomeAbrigo": "E.M Diná de Oliveira",
         "endereco": "RUA SÃO MATEUS, S-N",
         "bairro": "Iputinga"
     },
     {
-        "idAbrigo":2,
+        "idAbrigo": 2,
         "tipo": "escola",
         "nomeAbrigo": "E.M Casarão do Barbalho",
         "endereco": "ESTRADA DO BARBALHO, Nº 1595",
@@ -63,7 +63,6 @@
         "endereco": "R. DONA ANA AURORA, 2042",
         "bairro": "Areias"
     },
-    
     {
         "idAbrigo": 10,
         "tipo": "igreja",
