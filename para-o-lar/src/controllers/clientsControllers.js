@@ -38,28 +38,32 @@ const getById = async (req, res)=> {
     }
 }
 
-//not working
+
 const getOrders = async(req, res)=> {
     const { orderId } = req.params
+    
     try {
         const clientsModel = await dbConnect()
-        // const { clientId } = req.params
         let filterClients = clientsModel.slice()
-        // console.log(filterClients)
-        filterClients = filterClients.filter(order => {
-            let pedidos = order.orders              
-            // console.log(pedidos)
-           for(let i of pedidos) {
-            i.orderId
-            let pedidoId = i.orderId            
-            console.log(pedidoId)
-            if(pedidoId === orderId) {
+        let pedidos = []
+        
+        for(let i of filterClients) {
+            let orders = i.orders
+            console.log(orders)
+            for(let j of orders) {
+                let pedidoId = j.orderId
+                console.log(pedidoId)
+                if(pedidoId == orderId) {
+                    pedidos.push(j)
+                }
 
-            }          
+
+            }
         }
-       
-    })
-        res.status(200).json(filterClients)
+
+        if(pedidos.length == 0) throw new Error("Pedido não existe")
+        
+        res.status(200).json(pedidos)
       
     } catch (error) {
         console.error(error)
