@@ -78,7 +78,7 @@ const getSome = async (req, res) => {
         const clientsModel = await dbConnect()
         let filterClients = clientsModel.slice()
         //search for name, giving preference for social names
-        if(name) {
+        if(name) {  
             filterClients = filterClients.filter(identity => {
                 if(!identity.socialName.trim()==" ") {
                     return identity.socialName.toLowerCase().normalize("NFD").replace(/[^a-zA-Zs]/g, "").includes(name.toLowerCase().normalize("NFD").replace(/[^a-zA-Zs]/g, ""))
@@ -103,55 +103,36 @@ const getSome = async (req, res) => {
         res.status(404).json({message: error.message})
     }
 }
-//incomplete
+
 const createNewClient = async(req, res)=> {
-    const { Name, socialName, address, number, phone, orders } = req.body
+    let { Name, socialName, address, number, phone, orders } = req.body
+    if(!Name || !address) throw new Error("Nome não informado")
 
     try {
-        const clientsModel = await dbConnect()
-        const id = (clientsModel.length)+1
-
-        const newClient = {id, Name, socialName, address, number, phone, orders}
+        let clientsModel = await dbConnect()
+        let id = (clientsModel.length)+1
         
-        if(orders) {
-            orders.orderId =  Math.floor(Math.random() * 100 + 1)          
-
-        }
-        clientsModel.push(newClient)
-
+        let newClient = {id, Name, socialName, address, number, phone, orders}
         
-        //tentando criar um metodo que n repita os numeros de id de pedido
-       /*  for(let i of clientsModel) {
-            i.orders
-            let order = i.orders
-            for(let id of order) {
-                let oldId = id.orderId
-                if(oldId == newClient.orders.orderId) {
-                    newClient.orders.orderId = Math.floor(Math.random() * 100 + 1)
-                }               
-            } 
-            
-        }*/
-
-        /* const key = Object.keys(newClient)
-        
-        key.forEach(key => {
-            let clientValid = true
-            if(newClient[key] == null || newClient[key] == undefined) {
-                clientValid = false
+        if(newClient.orders) {
+            orders.orderId = Math.floor(Math.random() * 100 + 1)
+            for(let item of clientsModel) {
+                let order = item.orders
+                for(let ord of order) {
+                    ord.orderId
+                    if(ord.orderId == orders.orderId) {
+                        //if the id already exists keep changing the nº
+                        orders.orderId = Math.floor(Math.random() * 100 + 1)
+                    }
+                }
             }
-        }) */
-
-        // if(!newClient) throw new Error("Cliente não foi validado")
+        }
         
-        /* if(bodyRequest.clientId == clientsModel.clientId || bodyRequest.orderId == clientsModel.orders.orderId) throw new Error ("Cliente já cadastrado") */
-        
+        clientsModel.push(newClient)
         res.status(201).send({
             "mensagem": "Cliente cadastradx com sucesso",
             newClient
         })
-    
-        
     } catch (error) {
         res.status(400).json({message: error.message}) 
     }
