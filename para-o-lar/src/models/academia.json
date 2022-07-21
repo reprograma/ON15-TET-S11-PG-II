@@ -1,0 +1,22 @@
+[
+    {
+        "academiaId":1,
+        "nome":"Henrique",
+        "nome social":"Elen",
+        "idade": 30,
+        "endereço":"Rua Aqui Perto, 340",
+        "telefone":"(91)99990-9999",
+        "cpf":"111.111.111-11",
+        "treino": ["braço", "perna"]
+    },
+    {
+        "academiaId":2,
+        "nome":"Vanderleia",
+        "nome social":"",
+        "idade": 22,
+        "endereço":"Rua Aqui Perto, 34",
+        "telefone":"(91)99990-9899",
+        "cpf":"111.111.111-22",
+        "treino": ["braço"]
+    }
+]
